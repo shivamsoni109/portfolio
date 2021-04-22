@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1f2235;
+    font-family: Baloo Tamma 2,cursive;
+}
+.main_container{
+    height: 100vh;
+}
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1{
+    font-size: 5rem;
+}
+.main_row img{
+    width: auto;
+    height: 100vh;
+
+}
+#about{
+    background-color: #313552;
+    border-radius: 0.5rem;
+}
+#social-media{
+    background-color: #313552;
+}
+.media_link{
+padding: 1rem;
+max-width: 15rem;
+margin-left: 1rem;
+border: 2px solid #f5ba09;
+border-radius: 0.5rem;
+}
+.media_link:hover{
+    background-color: #f5ba09;
+
+}
+
+
+.showEmail{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+    width: 100%;
+}
+
+
